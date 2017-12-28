@@ -1,0 +1,1 @@
+from pybpodgui_plugin_oldformat.models.board.board_oldformat import BoardOldFormat as Board

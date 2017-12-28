@@ -1,0 +1,1 @@
+from pybpodgui_plugin_oldformat.models.setup.setup_oldformat import SetupOldFormat as Setup

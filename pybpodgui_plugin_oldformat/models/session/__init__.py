@@ -1,0 +1,1 @@
+from pybpodgui_plugin_oldformat.models.session.session_oldformat import SessionOldFormat as Session

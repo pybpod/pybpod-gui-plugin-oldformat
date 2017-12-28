@@ -1,0 +1,1 @@
+from pybpodgui_plugin_oldformat.models.subject.subject_oldformat import SubjectOldFormat as Subject
