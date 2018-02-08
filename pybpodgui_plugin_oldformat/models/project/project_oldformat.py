@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os, logging, json
+from pybpodgui_api.exceptions.api_error import APIError
 
 logger = logging.getLogger(__name__)
 
