@@ -13,4 +13,4 @@ class SessionOldFormat(object):
         :return:
         """
         self.name = os.path.basename(session_path).replace('.txt', '')
-        self.path = session_path
+        self.filepath = session_path

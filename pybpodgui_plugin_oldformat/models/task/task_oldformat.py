@@ -15,4 +15,4 @@ class TaskOldFormat(object):
         :ivar dict data: data object that contains all task info
         """
         self.name = os.path.splitext(os.path.basename(task_path))[0]
-        self.path = task_path
+        self.filepath = task_path
