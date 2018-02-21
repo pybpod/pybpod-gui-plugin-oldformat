@@ -6,7 +6,7 @@ class ExperimentOldFormat(object):
     """
     Save and Load actions for Experiment
     """
-    
+
     def load(self, experiment_path, data):
         """
         Load experiment data from filesystem
@@ -27,7 +27,7 @@ class ExperimentOldFormat(object):
                 setup = self.create_setup()
                 setup.load(path, {})
 
-            self.path = experiment_path
+            #self.path = experiment_path
 
         return data
 

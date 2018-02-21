@@ -14,7 +14,7 @@ class SetupOldFormat(object):
         :ivar dict data: data object that contains all setup info
         """
         settings_path = os.path.join(setup_path, 'setup-settings.json')
-        self.path = setup_path
+        #self.path = setup_path
 
         with open(settings_path, 'r') as output_file:
             data = json.load(output_file)
