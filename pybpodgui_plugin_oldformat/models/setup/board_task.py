@@ -12,4 +12,4 @@ class BoardTask(object):
         """
         for data in data.get('variables', []):
             var = self.create_variable()
-            var.load(setup_path, data)
+            var.load(data)
